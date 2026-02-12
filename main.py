@@ -42,7 +42,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # Configuración de Servidor de Correo
-EMAIL_SERVER = os.getenv("EMAIL_SERVER", "mail.logammx.mx")
+EMAIL_SERVER = os.getenv("EMAIL_SERVER")
 EMAIL_PORT = int(os.getenv("EMAIL_PORT", 995))
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
