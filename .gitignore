@@ -1,0 +1,32 @@
+.env
+.env.local
+secrets.json
+config.json
+
+# --- Logs y Auditoría ---
+*.log
+jouliana_actividad.log
+jouliana_system.log
+
+# --- Python basura ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales ---
+.venv/
+env/
+venv/
+
+# --- Archivos de Compilación (PyInstaller) ---
+build/
+dist/
+*.spec
+
+# --- Archivos de Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
